@@ -6,32 +6,59 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=faizmauritsdev&label=Profile%20Views&color=06b6d4&style=flat-square" />
-<img src="https://img.shields.io/github/followers/faizmauritsdev?label=Followers&style=flat-square&color=06b6d4" />
+<img src="https://komarev.com/ghpvc/?username=faizmauritsdev&label=Profile%20Views&color=22D3EE&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/faizmauritsdev?label=Followers&style=for-the-badge&color=22D3EE&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Joined&query=%24.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ffaizmauritsdev&color=22D3EE" />
 
 <br><br>
 
-<!-- GIF game 2D pixel di atas About Me -->
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VpM3Ftc21pZzhiYjh6YW43ZW1tdjI1bnhzbXlkYno2MGdxZzM1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YMT2uy1xaMWhcX7LYE/giphy.gif" width="700" />
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VpM3Ftc21pZzhiYjh6YW43ZW1tdjI1bnhzbXlkYno2MGdxZzM1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YMT2uy1xaMWhcX7LYE/giphy.gif" width="500" />
 
 </div>
 
 <br>
 
-About Me <img src="https://raw.githubusercontent.com/rajput2107/rajput2107/master/Assets/Hi.gif" width="30px" />
+## 👋 About Me
 
-Sedang membangun kemampuan Full Stack Development, dengan fokus di ekosistem Laravel dan JavaScript/Node.js. Juga menjalankan usaha kecil di luar dunia coding.
+Sedang mengembangkan kemampuan sebagai **Full Stack Developer** dengan pengalaman dalam berbagai teknologi web modern, mulai dari **PHP, Laravel, JavaScript, Node.js, Express.js, MySQL, Bootstrap, hingga Tailwind CSS**.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1200&color=22D3EE&center=false&vCenter=true&width=500&lines=%F0%9F%8E%93+Grade+12+%7C+RPL+%40+SMKN+1+Kota+Cirebon;%F0%9F%92%BB+Currently+building%3A+Peternakan+Ayam+%26+StoryVision;%F0%9F%8C%B1+Learning%3A+Preparing+for+SNBT%2FUTBK;%F0%9F%A4%9D+Freelance+team+with+Darel+%26+Divo;%F0%9F%8D%8C+Side+hustle%3A+Kripik+Mbok+Sri+%F0%9F%8F%AA" /> <p> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45" /> <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="45" /> <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="45" /> <img src="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif" width="45" /> </p>
-javascript
+Saya senang membangun aplikasi yang tidak hanya berfungsi dengan baik, tetapi juga memberikan solusi nyata untuk kebutuhan pengguna. Selain dunia teknologi, saya juga memiliki pengalaman menjalankan usaha kecil yang membantu saya memahami aspek bisnis, manajemen, dan problem solving di dunia nyata.
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1200&color=22D3EE&center=false&vCenter=true&width=700&lines=%F0%9F%92%BB+Full+Stack+Developer+Student;%F0%9F%9A%80+Building+Web+Applications+with+Laravel+%26+Node.js;%F0%9F%8C%B1+Always+Learning+New+Technologies;%F0%9F%8E%AF+Future+Software+Engineer;%F0%9F%92%A1+Turning+Ideas+Into+Real+Applications" />
+
+```javascript
 const faiz = {
-  role: "Full Stack Developer",
+  name: "Faiz Maurits Alviani",
+  username: "faizmauritsdev",
   location: "Cirebon, Indonesia",
-  focus: "Software Engineering (RPL)",
-  stack: ["Laravel 12", "Node.js", "JavaScript", "MySQL"],
-  currentlyBuilding: "faizmauritsdev.github.io projects",
-  funFact: "Runs a small business (warung) alongside coding 🏪",
+  role: "Full Stack Developer",
+  skills: [
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Git"
+  ],
+  interests: [
+    "Web Development",
+    "Software Engineering",
+    "Backend Development",
+    "System Design"
+  ],
+  goal: "Building impactful and scalable applications"
 };
+```
+
+- 💻 Passionate about Full Stack Development
+- 🚀 Building modern web applications and digital solutions
+- 🌱 Continuously learning new technologies and software engineering practices
+- 🎯 Interested in Web Development, Backend Engineering, and System Design
+- ⚡ Turning ideas into real-world applications through code
+
 <br>
 
 ## 🛠️ Tech Stack
@@ -64,50 +91,66 @@ Dev Tools
 
 <br>
 
-🚀 Featured Projects
-<table> <tr> <td width="50%" valign="top">
-🐔 Peternakan Ayam
+## 🚀 Featured Projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🐔 Peternakan Ayam
 Broiler chicken farm management system — full CRUD modules with a Chart.js analytics dashboard.
 
-Laravel Blade Alpine.js MySQL
+`Laravel` `Blade` `Alpine.js` `MySQL`
 
-</td> <td width="50%" valign="top">
-📖 StoryVision
+</td>
+<td width="50%" valign="top">
 
+### 📖 StoryVision
 AI-powered children's storybook app with narration & quizzes, powered by the Gemini API.
 
-React Vite TypeScript PHP API
+`React` `Vite` `TypeScript` `PHP API`
 
-</td> </tr> <tr> <td width="50%" valign="top">
-🎼 Angklung Robotic Controller
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
+### 🎼 Angklung Robotic Controller
 Web controller for a robotic angklung system via ESP32 + relay/WiFi.
 
-JavaScript ESP32 IoT
+`JavaScript` `ESP32` `IoT`
 
-</td> <td width="50%" valign="top">
-🛠️ Peminjaman Alat
+</td>
+<td width="50%" valign="top">
 
+### 🛠️ Peminjaman Alat
 Laravel-based equipment borrowing & role management system.
 
-Laravel MySQL Auth
+`Laravel` `MySQL` `Auth`
 
-</td> </tr> <tr> <td width="50%" valign="top">
-🏪 Laravel UMKM
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
+### 🏪 Laravel UMKM
 Business management web app built for small local businesses.
 
-Laravel Bootstrap MySQL
+`Laravel` `Bootstrap` `MySQL`
 
-</td> <td width="50%" valign="top">
-🛒 Node.js Shop
+</td>
+<td width="50%" valign="top">
 
+### 🛒 Node.js Shop
 Simple e-commerce platform built with Express.js.
 
-Node.js Express JavaScript
+`Node.js` `Express` `JavaScript`
 
-</td> </tr> </table> <br>
+</td>
+</tr>
+</table>
+
+<br>
 
 ## 📊 GitHub Stats
 
@@ -139,10 +182,17 @@ Node.js Express JavaScript
 
 <br>
 
-<!-- Snake game 2D dari kontribusi GitHub -->
+<br>
+
+## 🐍 Contribution Snake Game
+
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/faizmauritsdev/faizmauritsdev/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/faizmauritsdev/faizmauritsdev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/faizmauritsdev/faizmauritsdev/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/faizmauritsdev/faizmauritsdev/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
 
