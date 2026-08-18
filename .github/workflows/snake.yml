@@ -9,12 +9,20 @@ on:
     branches:
       - main
 
+# biar gak ada run yang tabrakan kalau ke-trigger 2x barengan
+concurrency:
+  group: snake-game
+  cancel-in-progress: true
+
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Generate snake game SVG/GIF
         uses: Platane/snk@v3
         id: snake-gif
@@ -22,7 +30,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%230D1117,%23155e75,%2306b6d4,%2322d3ee,%2367e8f9
             dist/github-contribution-grid-snake.gif?color_snake=%2322D3EE&color_dots=%230D1117,%23155e75,%2306b6d4,%2322d3ee,%2367e8f9
 
       - name: Push output ke branch output
